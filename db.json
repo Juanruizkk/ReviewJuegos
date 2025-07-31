@@ -1,0 +1,179 @@
+{
+  "juegos": [
+    {
+      "nombreJuego": "Minecraft",
+      "precio": "295",
+      "imagen": "https://products.eneba.games/resized-products/QxAeQgcyl-w1ljdkwptBZlBunwVCuJhRsGZPIiiIceI_350x200_2x-0.jpeg",
+      "categorias": {
+        "Acción": false,
+        "Aventura": true,
+        "Deportes": false,
+        "Estrategia": false,
+        "RPG": false,
+        "Simulación": true,
+        "Terror": false,
+        "Carreras": "Carreras"
+      },
+      "descripcion": "Juego de construcción y supervivencia en mundos generados por procedimientos.",
+      "requisitos_del_sistema": {
+        "procesador": "Intel Core i3",
+        "memoria": "4 GB RAM",
+        "graficos": "Intel HD Graphics 4000",
+        "almacenamiento": "1 GB disponibles"
+      },
+      "desarrolador": "Mojang Studios",
+      "resenas": {
+        "positivas": 19999,
+        "negativas": 5000
+      },
+      "id": 1
+    },
+    {
+      "nombreJuego": "Hollow Knight",
+      "precio": "10500",
+      "imagen": "https://products.eneba.games/resized-products/q7i-msiKJw8A73IeLKtYuwpr0ilw62NWSVQIFD0GbB0_350x200_2x-0.jpeg",
+      "categorias": {
+        "Acción": "Acción",
+        "Aventura": "Aventura",
+        "Deportes": false,
+        "Estrategia": "Estrategia",
+        "RPG": false,
+        "Simulación": false,
+        "Terror": false,
+        "Carreras": false
+      },
+      "descripcion": "Una de las mejores cosas de Hollow Knight es el hecho de que no estás forzado a seguir la historia, si no que en cambio, la vas descubriendo por tu cuenta. ",
+      "requisitos_del_sistema": {
+        "procesador": "Intel Core i5",
+        "memoria": "8 GB RAM",
+        "graficos": "GeForce GTX 560",
+        "almacenamiento": "9 GB  "
+      },
+      "desarrolador": "Team Cherry",
+      "resenas": {
+        "positivas": "323",
+        "negativas": "21"
+      },
+      "resenasPorUsuario": [],
+      "id": 2
+    },
+    {
+      "nombreJuego": "No Man's Sky",
+      "precio": "15298",
+      "imagen": "https://products.eneba.games/resized-products/ppt92xozmp6fcaxfce0h_350x200_2x-0.jpg",
+      "categorias": {
+        "Acción": "Acción",
+        "Aventura": "Aventura",
+        "Deportes": false,
+        "Estrategia": false,
+        "RPG": "RPG",
+        "Simulación": false,
+        "Terror": false,
+        "Carreras": false
+      },
+      "descripcion": "No Man’s Sky key presenta un mundo abierto de ciencia-ficción y supervivencia desarrollado por Helio Gmaes.",
+      "requisitos_del_sistema": {
+        "procesador": "Intel Core i3",
+        "memoria": "8 GB RAM",
+        "graficos": "nVidia GTX 480 / AMD Radeon 7870",
+        "almacenamiento": "10 GB"
+      },
+      "desarrolador": "Hello Games",
+      "resenas": {
+        "positivas": "69",
+        "negativas": "2"
+      },
+      "resenasPorUsuario": [],
+      "id": 3
+    },
+    {
+      "nombreJuego": "Stellar Blade",
+      "precio": "19999",
+      "imagen": "https://products.eneba.games/resized-products/doYAq0I2U06LbOS7T0aFsQS2JPx3q20InbdyfrwwHWY_350x200_2x-0.jpg",
+      "categorias": {
+        "Acción": "Acción",
+        "Aventura": "Aventura",
+        "Deportes": false,
+        "Estrategia": "Estrategia",
+        "RPG": false,
+        "Simulación": false,
+        "Terror": false,
+        "Carreras": false
+      },
+      "descripcion": "Stellar Blade combines cinematic storytelling, visually intricate environments, and a fluid, combo-rich combat system that creates a bold, genre-defining experience. ",
+      "requisitos_del_sistema": {
+        "procesador": "Intel® Core™ i5-7600k  ",
+        "memoria": "16 GB RAM",
+        "graficos": "NVIDIA GeForce GTX 1060 6GB or AMD Radeon RX 580 8GB",
+        "almacenamiento": "75 GB"
+      },
+      "desarrolador": "SHIFT UP Corporation",
+      "resenas": {
+        "positivas": "402",
+        "negativas": "5"
+      },
+      "resenasPorUsuario": [],
+      "id": 4
+    },
+    {
+      "nombreJuego": "Detroit: Become Human",
+      "precio": "12500",
+      "imagen": "https://products.eneba.games/resized-products/OHwigC91bAhgTtrpogp-KSOfj9XDDBpfzrZ63FCgZ1Y_350x200_2x-0.jpg",
+      "categorias": {
+        "Acción": "Acción",
+        "Estrategia": "Estrategia",
+        "Simulación": "Simulación"
+      },
+      "descripcion": "Compra el código de Detroit: Become Human y piérdete en una experiencia de juego rica y cinematográfica que te ofrecen los creadores de títulos tan famosos de PS4 como Heavy Rain y Beyond entre otros.",
+      "requisitos_del_sistema": {
+        "procesador": "Intel Core i5-2300",
+        "memoria": "8 GB RAM",
+        "graficos": "Nvidia GeForce GTX 780",
+        "almacenamiento": "55 GB"
+      },
+      "desarrolador": "Quantic Dream",
+      "resenasPorUsuario": [],
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "email": "admin@admin.com",
+      "password": "12345678",
+      "rol": "admin"
+    },
+    {
+      "nombre": "pedrito",
+      "email": "pedro@user.com",
+      "password": "12345678",
+      "rol": "invitado",
+      "id": 2
+    },
+    {
+      "nombre": "invitado",
+      "email": "invitado@invitado.com",
+      "password": "12345678",
+      "rol": "invitado",
+      "id": 3
+    }
+  ],
+  "imagenesCarousel": [
+    {
+      "url": "https://res.cloudinary.com/dsetebo4k/image/upload/v1748396136/uqftkofkdf47ciydbfhn.png",
+      "seleccionada": true,
+      "id": 4
+    },
+    {
+      "url": "https://res.cloudinary.com/dsetebo4k/image/upload/v1748396601/lavruqqazrhapse8ukve.png",
+      "seleccionada": true,
+      "id": 5
+    },
+    {
+      "url": "https://res.cloudinary.com/dsetebo4k/image/upload/v1748396673/lo6yvgkk20aasdvov21d.jpg",
+      "seleccionada": true,
+      "id": 7
+    }
+  ]
+}

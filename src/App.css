@@ -1,0 +1,79 @@
+
+ html, body, #root {
+  height: 100%;
+  min-height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body {
+  background-color: var(--bs-gray-800) !important; 
+}
+/* CSS navbar */
+.navbar-toggler {
+  border-color: #fff !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#basic-nav-dropdown {
+  color: #fff !important;
+}
+.dropdown-menu {
+  background-color: #212529 !important;
+}
+
+.dropdown-item {
+  color: #f8f9fa !important;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: #343a40 !important;
+  color: white !important;
+}
+
+/* CSS para todas las secciones */
+
+.mainSection {
+  flex: 1 0 auto;
+  background-color: var(--bs-gray-800);
+}
+
+/* CSS para los li de las tablas */
+
+td ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.img-detalle{
+  height: 500px;
+  object-fit: contain;
+  /* width: 100%; */
+}
+
+.form-control::placeholder {
+  color: #f8f9fa !important; /* blanco Bootstrap */
+}
+
+.carousel img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.banner-error {
+  height: calc(100vh - 250px - 82px);
+  width: 100%;
+  background-image: url('https://images.pexels.com/photos/6755147/pexels-photo-6755147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
